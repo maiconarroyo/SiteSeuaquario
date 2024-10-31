@@ -1,0 +1,9 @@
+.header-contact{
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    width: 1296px;
+    height: 72px;
+    margin: auto;
+
+}
