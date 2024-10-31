@@ -27,3 +27,22 @@
     font-weight: 500;
     margin-right: 20px;
 }
+.main-subtitle{
+    font-family: "inter";
+    color: #3636b9;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.main-title.-h1{
+    font-size: 54px;
+    font-weight: 700;
+}
+.main-subtitle.-p{
+    font-size: 16px;
+    color: black;
+    font-weight: 400;
+
+}

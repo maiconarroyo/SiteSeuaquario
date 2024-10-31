@@ -15,3 +15,15 @@ a{
     height: 607px;
     margin: auto;
 }
+
+.main-button{
+    font-family: "Poppins";
+    font-size: 20px;
+    width: 181px;
+    height: 60px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    cursor:pointer;
+    
+}
