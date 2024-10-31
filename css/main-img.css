@@ -8,3 +8,8 @@
     max-height: 570px;
     height: 50vw;
 }
+
+@media(max-width: 710px){
+    .main-logo{
+        height: 20px;}
+}
