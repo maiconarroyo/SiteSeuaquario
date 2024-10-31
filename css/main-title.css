@@ -73,4 +73,13 @@
     .main-title.-fishdex{
         display: none;
     }
+    .main-subtitle{
+        font-size: 10px;
+    }
+    .main-title.-h1{
+        font-size: 25px;
+    }
+    .main-subtitle.-p{
+        font-size: 10px;
+    }
 }

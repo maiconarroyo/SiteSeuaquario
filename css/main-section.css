@@ -1,0 +1,26 @@
+.main-section.-calculator{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1296px;
+    width: 100vw;
+    height: 607px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding-left: 15px;
+}
+.main-amonia{
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items:baseline;
+    margin: auto;
+
+}
+
+@media(max-width: 710px){
+    .main-section.-calculator{
+        height: 400px;
+    }
+}

@@ -6,7 +6,7 @@
 
 .main-background{
     max-height: 570px;
-    height: 50vw;
+    height: 40vw;
 }
 .beta-img{
     display: flex;
@@ -14,13 +14,11 @@
     justify-content: end;
     max-height: 100px;
     height: 10vw;
-    padding-top: 20px;
     margin: auto;
-    margin-top: 30px;
 
 }
 
 @media(max-width: 710px){
     .main-logo{
-        height: 10vw;}
+        height: 05vw;}
 }

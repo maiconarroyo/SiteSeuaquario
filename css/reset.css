@@ -6,17 +6,6 @@ a{
     text-decoration: none;
 }
 
-.main-section.-calculator{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 1296px;
-    width: 100vw;
-    height: 607px;
-    margin: auto;
-    margin-left: 20px;
-}
-
 .main-button{
     font-family: "Poppins";
     font-size: 20px;
