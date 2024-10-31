@@ -6,3 +6,11 @@ a{
     text-decoration: none;
 }
 
+.main-section.-calculator{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1296px;
+    height: 607px;
+    margin: auto;
+}
