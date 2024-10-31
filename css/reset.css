@@ -1,21 +1,6 @@
 body{
     background-color: #F8F9FA;
 }
-.header-contact{
-    display: flex;
-    justify-content: flex-start;
-    align-items: baseline;
-    width: 1296px;
-    height: 72px;
-    margin: auto;
-}
-
-.main-header{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 1296px;
-    height: 88px;
-    border-radius: 10px;
-    background-color: white;
+a{
+    text-decoration: none;
 }
