@@ -13,12 +13,14 @@
     align-items: end;
     justify-content: end;
     max-height: 100px;
-    height: 25vw;
-    margin-left: auto;
+    height: 10vw;
+    padding-top: 20px;
+    margin: auto;
+    margin-top: 30px;
 
 }
 
 @media(max-width: 710px){
     .main-logo{
-        height: 20px;}
+        height: 10vw;}
 }
