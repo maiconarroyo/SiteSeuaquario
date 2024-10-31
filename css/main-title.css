@@ -3,3 +3,15 @@
     color: black;
     font-size: 16px;
 }
+
+.main-title.-home{
+    color: #3636b9;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+.main-title.-header{
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+}
