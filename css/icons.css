@@ -8,3 +8,8 @@
     cursor: pointer;
     
 }
+@media(max-width: 710px){
+    .icon-login{
+        height: 15px;
+    }
+}

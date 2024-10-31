@@ -1,7 +1,7 @@
 .header-contact{
     display: flex;
     justify-content: flex-end;
-    align-items: baseline;
+    align-items: center;
     max-width: 1296px;
     width: 100vw;
     height: 50px;
