@@ -5,7 +5,9 @@ body{
 a{
     text-decoration: none;
 }
-
+figure{
+    margin: 0;
+}
 .main-button{
     font-family: "Poppins";
     font-size: 20px;

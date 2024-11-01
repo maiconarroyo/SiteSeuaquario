@@ -20,8 +20,13 @@
 .main-tools{
     max-height: 300px;
     border-radius: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
-
+.img-recomend{
+    height: 200px;
+    margin-left: 50px;
+}
 
 
 @media(max-width: 710px){
@@ -29,5 +34,11 @@
         height: 05vw;}
         .main-tools{
             height: 30vw;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        .img-recomend{
+            height: 100px;
+            margin-left: 15px;
         }
 }

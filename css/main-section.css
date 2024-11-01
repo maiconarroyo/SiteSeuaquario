@@ -21,7 +21,20 @@
 .tools-section{
     display: flex;
     justify-content: center;
+    margin-top: 30px;
 }
+.main-recommendation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.recommendation-images{
+    display: flex;
+    justify-content: center;
+}
+
 
 @media(max-width: 710px){
     .main-section.-calculator{
