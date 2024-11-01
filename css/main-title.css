@@ -89,4 +89,7 @@
     .main-subtitle.-p{
         font-size: 10px;
     }
+    .main-title.-figcaption{
+        font-size: 15px;
+    }
 }
