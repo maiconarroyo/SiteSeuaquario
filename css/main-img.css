@@ -8,6 +8,11 @@
     max-height: 570px;
     height: 40vw;
 }
+.main-background.-amonia{
+    max-height: 570px;
+    height: 40vw;
+    border-radius: 10px;
+}
 .beta-img{
     display: flex;
     align-items: end;
