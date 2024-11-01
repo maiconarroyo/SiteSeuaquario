@@ -42,7 +42,7 @@
 }
 
 
-@media(max-width: 710px){
+@media(max-width: 790px){
     .main-section.-calculator{
         height: 400px;
     }
