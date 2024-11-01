@@ -18,7 +18,7 @@
 
 }
 .main-tools{
-    max-height: 250px;
+    max-height: 300px;
     border-radius: 10px;
 }
 
@@ -27,4 +27,7 @@
 @media(max-width: 710px){
     .main-logo{
         height: 05vw;}
+        .main-tools{
+            height: 30vw;
+        }
 }
