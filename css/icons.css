@@ -2,14 +2,32 @@
     margin-right: 10px;
     margin-left: 30px;
     height: 24px;
+    width: 24px;
 }
 .icon-login{
     height: 30px;
+    width: 30px;
     cursor: pointer;
     
+}
+
+.icon-contact{
+    height: 50px;
+    width: 50px;
+    margin-left: 30px;
+}
+.icon-contact.-youtube:hover{
+    color: red;
+}
+.icon-contact.-whats:hover{
+    color: #25D366;
+}
+.icon-contact.-linkedin:hover{
+    color: #0077B5;
 }
 @media(max-width: 710px){
     .icon-login{
         height: 15px;
+        width: 15px;
     }
 }
