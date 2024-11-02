@@ -12,6 +12,8 @@
     max-height: 570px;
     height: 40vw;
     border-radius: 10px;
+    margin: auto;
+    margin-left: 30px;
 }
 .beta-img{
     display: flex;
@@ -19,7 +21,7 @@
     justify-content: end;
     max-height: 100px;
     height: 10vw;
-    margin: auto;
+    margin-top: 60px;
 
 }
 .main-tools{

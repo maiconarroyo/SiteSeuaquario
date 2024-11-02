@@ -1,8 +1,10 @@
 function hidem() {
-    const botomCalculator = document.querySelector('.icon-calculator');
-    const calcularDiv = document.querySelector('.calcular-amonia');
-    calcularDiv.style.display = 'flex';
-    botomCalculator.style.display = 'none';
+    const botomCalculator = document.querySelector('.calcular-amonia');
+    const calcularDiv = document.querySelector('.main-amonia');
+    const betaimg = document.querySelector('.beta-img');
+    calcularDiv.style.display = 'none';
+    botomCalculator.style.display = 'flex';
+    betaimg.style.display= 'none';
 }
 
 function amonia() {
