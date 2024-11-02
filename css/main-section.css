@@ -9,6 +9,7 @@
     margin-top: 100px;
     margin-bottom: 30px;
     padding-left: 15px;
+    padding-bottom: 70px;
 }
 .main-amonia{
     display: flex;
@@ -49,6 +50,6 @@
 @media(max-width: 790px){
     .main-section.-calculator{
         height: 400px;
-        margin-top: 40px;
+        margin-top: 60px;
     }
 }

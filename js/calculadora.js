@@ -2,9 +2,11 @@ function hidem() {
     const botomCalculator = document.querySelector('.calcular-amonia');
     const calcularDiv = document.querySelector('.main-amonia');
     const betaimg = document.querySelector('.beta-img');
+    const amoniaBackGround = document.querySelector('.main-background.-amonia')
     calcularDiv.style.display = 'none';
     botomCalculator.style.display = 'flex';
     betaimg.style.display= 'none';
+    amoniaBackGround.style.display='none'
 }
 
 function amonia() {
