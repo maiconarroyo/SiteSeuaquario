@@ -33,6 +33,6 @@
     margin-left: 10px;
    }
    .header-login{
-    margin-left: 10px;
+    display: none;
    }
 }
