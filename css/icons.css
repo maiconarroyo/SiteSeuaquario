@@ -25,6 +25,13 @@
 .icon-contact.-linkedin:hover{
     color: #0077B5;
 }
+.icon-calculator{
+    height: 30px;
+    width: 30px;
+    
+}
+
+
 @media(max-width: 710px){
     .icon-login{
         height: 10px;

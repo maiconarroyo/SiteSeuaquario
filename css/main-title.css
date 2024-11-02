@@ -50,17 +50,25 @@
     font-size: 54px;
     font-weight: 700;
 }
-.main-subtitle.-p{
-    font-size: 16px;
-    color: black;
-    font-weight: 400;
-}
 .main-title.-figcaption{
     display: flex;
     align-items: center;
     justify-content: center;
     font-weight: 700;
     font-size: 25px;
+}
+
+.main-subtitle.-p{
+    font-size: 16px;
+    color: black;
+    font-weight: 400;
+}
+.main-subtitle.-resultado{
+    color: rgb(17, 14, 14);
+    font-size: 20px;
+    font-family: "Poppins";
+    font-weight: 700;
+    cursor: pointer;
 }
 
 
