@@ -32,6 +32,10 @@
 }
 .img-recomend{
     height: 200px;
+    margin-left: 30px;
+
+}
+.img-recomend.-first{
     margin-left: 50px;
 }
 
@@ -48,7 +52,10 @@
             height: 100px;
             margin-left: 15px;
         }
-        
+        .img-recomend.-first{
+            margin-left: 230px;
+        }
+
       
  
 }
