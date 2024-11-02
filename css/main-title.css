@@ -67,15 +67,19 @@
 @media(max-width: 790px){
     .main-title.-header{
         font-size: 10px;
+        margin-right: 5px;
+        margin-left: 5px;
     }
     .main-title.-contact{
         font-size: 08px;
     }
     .main-title.-home{
         font-size: 10px;
+        margin: 7px;
     }
     .main-title.-login{
         font-size: 10px;
+
     }
     .main-title.-fishdex{
         display: none;
