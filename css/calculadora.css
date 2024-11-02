@@ -61,3 +61,8 @@
     font-weight: 700;
 
 }
+@media(max-width: 790px){
+.calcular-amonia{
+    margin-right: 20px;
+}
+}
