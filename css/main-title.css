@@ -38,7 +38,7 @@
     margin-left: 10px;
     margin-right: 10px;
 }
-.main-title.-fishdex{
+.main-title.-mobile{
     color: black;
     font-size: 20px;
     font-weight: 500;
@@ -69,7 +69,7 @@
         font-size: 10px;
     }
     .main-title.-contact{
-        font-size: 10px;
+        font-size: 08px;
     }
     .main-title.-home{
         font-size: 10px;
@@ -91,5 +91,8 @@
     }
     .main-title.-figcaption{
         font-size: 15px;
+    }
+    .main-title.-mobile{
+        display: none;
     }
 }
