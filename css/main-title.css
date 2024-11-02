@@ -90,7 +90,12 @@
         font-size: 10px;
     }
     .main-title.-figcaption{
+        display: flex;
+        align-items: center;
+        justify-content: center;
         font-size: 15px;
+        width: 100px;
+        margin-left: 20px;
     }
     .main-title.-mobile{
         display: none;
