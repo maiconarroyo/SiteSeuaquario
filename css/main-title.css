@@ -5,6 +5,11 @@
 }
 .main-title.-contact{
     font-size: 18px;
+    line-height: 1;
+}
+.main-title.-contactMobile{
+    display: none;
+    font-size: 13px;
 }
 
 .main-title.-home{
@@ -79,14 +84,17 @@
         margin-left: 5px;
     }
     .main-title.-contact{
-        font-size: 08px;
+        display: none;
+    }
+    .main-title.-contactMobile{
+        display: flex;
     }
     .main-title.-home{
         font-size: 10px;
         margin: 7px;
     }
     .main-title.-login{
-        font-size: 10px;
+        font-size: 13px;
 
     }
     .main-title.-fishdex{
