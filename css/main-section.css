@@ -44,7 +44,7 @@
     flex-direction: column;
     max-width: 1296px;
     width: 100vw;
-    height: 607px;
+    height: 801px;
     margin: auto;
     margin-top: 100px;
     margin-bottom: 30px;
@@ -69,12 +69,11 @@
     display: flex;
     justify-content: center;
     margin-top: 30px;
-    overflow: hidden; 
+    
 }
 .tools-section.-fishdex{
     flex-direction: column;
     align-items: center;
-    margin-top: 0;
 }
 .card-container {
     position: relative;
