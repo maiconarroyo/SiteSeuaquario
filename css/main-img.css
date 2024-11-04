@@ -29,6 +29,11 @@
     border-radius: 10px;
     margin-left: 40px;
     margin-right: 40px;
+    transition: transform 0.3s ease; 
+    padding-bottom: 10px;
+}
+.main-tools:hover{
+   transform: scale(1.1);
 }
 .img-recomend{
     height: 200px;
@@ -41,8 +46,12 @@
 .fishdex-card{
     height: 300px;
     margin: 15px;
+    cursor: pointer;
+    transition: all 1s;
 }
-
+.fishdex-card:hover {
+    transform: rotateY(180deg);
+}
 @media(max-width: 710px){
     .main-logo{
         height: 05vw;}
