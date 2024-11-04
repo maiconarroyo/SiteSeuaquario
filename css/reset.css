@@ -9,6 +9,6 @@ a{
 a:hover {
     color: #000;
 }   
-figure{
+figure, h1{
     margin: 0;
 }

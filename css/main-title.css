@@ -55,6 +55,10 @@
     font-size: 54px;
     font-weight: 700;
 }
+.main-title.-h2{
+    font-size: 44px;
+    font-weight: 500;
+}
 .main-title.-figcaption{
     display: flex;
     align-items: center;
@@ -105,6 +109,9 @@
     }
     .main-title.-h1{
         font-size: 20px;
+    }
+    .main-title.-h2{
+        font-size: 15px;
     }
     .main-subtitle.-p{
         font-size: 10px;
