@@ -38,7 +38,9 @@
 .img-recomend.-first{
     margin-left: 50px;
 }
-
+.fishdex-card{
+    height: 300px;
+}
 
 @media(max-width: 710px){
     .main-logo{
