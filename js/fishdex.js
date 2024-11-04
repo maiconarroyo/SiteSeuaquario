@@ -8,8 +8,6 @@ function fishDex(){
     cardDiv.style.display='flex';
 }
 
-function virar(elemento){
-    const frente = document.querySelector(".fishdex-card")
-    const vers = document.q
-    elemento.classList.toggle(".fishdex-card.-verso")
-}
+    function virar(elemento) {
+        elemento.classList.toggle("virado");
+    }

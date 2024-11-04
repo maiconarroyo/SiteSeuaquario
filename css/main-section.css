@@ -74,7 +74,22 @@
     align-items: center;
     margin-top: 0;
 }
+.card-container {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+    cursor: pointer;
+}
+.card-container.virado .fishdex-card.-frente {
+    display: none;
+    transform: rotateY(180deg);
+}
 
+.card-container.virado .fishdex-card.-verso {
+    display: block;
+    transform: rotateY(0deg);
+}
 .main-recommendation{
     display: flex;
     justify-content: center;
