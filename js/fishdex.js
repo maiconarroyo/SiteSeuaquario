@@ -1,5 +1,5 @@
 function fishDex(){
-    const paragrafo = document.querySelector(".main-section.-calculator");
+    const paragrafo = document.querySelector(".main-section.-fishdextop");
     const background = document.querySelector(".main-background.-amonia");
     const cardDiv = document.querySelector(".main-section.-fishdex");
 
