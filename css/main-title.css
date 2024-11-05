@@ -80,9 +80,15 @@
     cursor: pointer;
 }
 .main-title.-h1Carroseu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 50px;
 }
 .main-subtitle.-pCarroseu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-size: 22px;
     color: black;
     font-weight: 400;
