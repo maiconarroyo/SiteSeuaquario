@@ -38,4 +38,13 @@
     .caroseu-img{
         height: 300px;
     }
+.seta{
+    background-color: #F8F9FA;
+    height: 30px;
+    width: 50px;
+}
+.seta::before{
+    border: 16px solid transparent;
+    border-top: 28px solid black;
+}
 }
