@@ -6,7 +6,7 @@
 
 .main-background{
     max-height: 570px;
-    height: 40vw;
+    height: 30vw;
 }
 .main-background.-amonia{
     max-height: 570px;
@@ -76,6 +76,7 @@
         }
         .main-background.-amonia{
             margin-left: 10px;
+            height: 155px;
         }
         .fishdex-card{
             height: 120px;
