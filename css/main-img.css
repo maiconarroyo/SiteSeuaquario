@@ -58,7 +58,9 @@
     transform: rotateY(180deg);
     display: block;
 }
-
+.caroseu-img{
+    height: 130px;
+}
 
 @media(max-width: 710px){
     .main-logo{

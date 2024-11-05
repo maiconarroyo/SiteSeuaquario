@@ -84,8 +84,8 @@
 @media(max-width: 790px){
     .main-title.-header{
         font-size: 10px;
-        margin-right: 5px;
-        margin-left: 5px;
+        margin-right: 4px;
+        margin-left: 4px;
     }
     .main-title.-contact{
         display: none;
@@ -95,7 +95,7 @@
     }
     .main-title.-home{
         font-size: 10px;
-        margin: 7px;
+        margin: 5px;
     }
     .main-title.-login{
         font-size: 13px;
