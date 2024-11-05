@@ -76,6 +76,7 @@
     margin-bottom: 0;
     padding-bottom: 0;
     height: 530px;
+    flex-direction: column;
 }
 
 .main-amonia{
@@ -135,7 +136,13 @@
     margin-left: 30px;
 }
 
+.container{
+    display: flex;
+}
+.container.-carroseu{
+    flex-direction: row;
 
+}
 @media(max-width: 790px){
     .main-section.-home{
         margin-top: 40px;
