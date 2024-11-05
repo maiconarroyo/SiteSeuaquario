@@ -1,3 +1,16 @@
+.main-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1296px;
+    width: 100vw;
+    height: 607px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    padding-left: 15px;
+    padding-bottom: 70px;
+}
 .main-section.-home{
     display: flex;
     justify-content: center;
@@ -57,6 +70,14 @@
     flex-wrap: wrap;
     margin-top: 10px;
 }
+.main-section.-carroseu{
+    overflow:hidden ;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    height: 530px;
+}
+
 .main-amonia{
     display: flex;
     flex-direction: column;
@@ -113,12 +134,11 @@
 .amonia-introduce{
     margin-left: 30px;
 }
-.main-carroseu{
-    display: flex;
-}
+
 .figure-carroseu{
     margin: auto;
     border-radius: 10px;
+    margin-right: 40px;
 }
 @media(max-width: 790px){
     .main-section.-home{
