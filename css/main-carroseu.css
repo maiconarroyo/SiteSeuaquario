@@ -16,14 +16,20 @@
     transition: transform 0.5s ease-in-out;
 }
 .seta{
-    background-color: black;
-   box-shadow: 5px 5px 0px black;
+    background-color:#F8F9FA;
     height: 50px;
     width: 50px;
 }
 .seta::before{
     content: "";
-    width: 10px;
-    height: 10px;
-    border: 4px solid blue;
+    display: block;
+    box-sizing: border-box;
+    width: 15px;
+    height: 15px;
+    border: 26px solid transparent;
+    border-top:28px solid black ;
+
+}
+.seta.-bottom{
+    transform: rotate(180deg);
 }
