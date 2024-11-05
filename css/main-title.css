@@ -83,7 +83,9 @@
     font-size: 50px;
 }
 .main-subtitle.-pCarroseu{
-    font-size: 18px;
+    font-size: 22px;
+    color: black;
+    font-weight: 400;
 }
 
 @media(max-width: 790px){
