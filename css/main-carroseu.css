@@ -1,0 +1,16 @@
+.caroseu-img{
+    height: 450px;
+    border: solid 5px; 
+    border-image: linear-gradient(45deg, #e0e0e0, #f5f5f5, #cccccc, #f5f5f5, #e0e0e0) 3;
+    border-radius: 20px; 
+}
+.caroseu-img::before{
+    position: absolute;
+    transform: translate(-120%);
+}
+.figure-carroseu{
+    margin: auto;
+    border-radius: 10px;
+    margin-right: 40px;
+    transform: translateX(340%);
+}
