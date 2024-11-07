@@ -9,6 +9,6 @@ function carossel(){
         idx = 0;
     }
 
-    imgs.style.transform = `translateX(${-idx * 360}px)`;
+    imgs.style.transform = `translateX(${-idx * 375}px)`;
 }
 setInterval(carossel, 1800)
