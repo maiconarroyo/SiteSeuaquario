@@ -79,13 +79,13 @@
     font-weight: 700;
     cursor: pointer;
 }
-.main-title.-h1Carroseu{
+.main-title.-h1Carrosel{
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 50px;
 }
-.main-subtitle.-pCarroseu{
+.main-subtitle.-pCarrosel{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -140,10 +140,10 @@
     .main-title.-mobile{
         display: none;
     }
-    .main-title.-h1Carroseu{
+    .main-title.-h1Carrosel{
         font-size: 25px;
     }
-    .main-subtitle.-pCarroseu{
+    .main-subtitle.-pCarrosel{
         font-size: 15px;
     }
 }

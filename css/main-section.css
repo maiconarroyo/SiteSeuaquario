@@ -24,7 +24,7 @@
     padding-left: 15px;
     padding-bottom: 70px;
 }
-.main-section.-homecarroseu{
+.main-section.-homecarrosel{
     display: flex;
 
 }
@@ -74,7 +74,7 @@
     flex-wrap: wrap;
     margin-top: 10px;
 }
-.main-section.-carroseu{
+.main-section.-carrosel{
 
     margin-top: 0;
     margin-bottom: 0;
@@ -144,7 +144,7 @@
 .container{
     display: flex;
 }
-.container.-carroseu{
+.container.-carrosel{
     flex-direction: row;
     transition: transform 0.5s ease-in-out;
     transform: translateX(0%);
@@ -182,7 +182,7 @@
         margin-top: 0;
 
     }
-    .main-section.-homecarroseu{
+    .main-section.-homecarrosel{
         margin-top: 40px;
         height: 300px;
     }
@@ -196,7 +196,7 @@
         height: 43px;
         padding-bottom: 2px;
     }
-    .main-section.-carroseu{
+    .main-section.-carrosel{
         height: auto;
         width: auto;
     }
