@@ -66,6 +66,12 @@
     font-weight: 700;
     font-size: 25px;
 }
+.main-title.-h1Carrosel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
 
 .main-subtitle.-p{
     font-size: 16px;
@@ -79,12 +85,7 @@
     font-weight: 700;
     cursor: pointer;
 }
-.main-title.-h1Carrosel{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 50px;
-}
+
 .main-subtitle.-pCarrosel{
     display: flex;
     align-items: center;
@@ -93,6 +94,7 @@
     color: black;
     font-weight: 400;
 }
+
 
 @media(max-width: 790px){
     .main-title.-header{

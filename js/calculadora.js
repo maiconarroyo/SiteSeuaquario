@@ -32,7 +32,7 @@ function amonia() {
     const amoniaToxica = amoniaTotal * fracaoToxica;
 
     const resultadoDiv = document.getElementById('resultado');
-    const resultadoTexto = resultadoDiv.querySelector('.sub-title.-resultado');
+    const resultadoTexto = resultadoDiv.querySelector('.main-subtitle.-resultado');
     resultadoDiv.style.display = 'block';
 
     if (amoniaToxica <= 0.018) {
