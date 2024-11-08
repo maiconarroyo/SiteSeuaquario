@@ -1,10 +1,13 @@
 .figure-carrosel1{
-    padding-left:2380px;
-   margin-right: 40px;
+    padding-left:280px;
+   margin-right: 1250px;
 }
 
 .carossel-img {
-    height: 450px;
+    margin: 0;
+    height: 250px;
+    margin-right: 40px;
+    width: 180px;
     border: solid 06px; 
     border-image: linear-gradient(45deg, 
     rgb(255, 255, 255), 
@@ -26,7 +29,7 @@
 .figure-carrosel{
     margin: auto;
     border-radius: 10px;
-    margin-right: 40px;
+    margin: 0;
 }
 .seta{
     background-color:#F8F9FA;
