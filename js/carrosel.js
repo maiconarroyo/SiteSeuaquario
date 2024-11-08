@@ -30,7 +30,7 @@ function carossel() {
     img[idx].style.border ="5px solid transparent";
     img[idx].style.borderImage = "linear-gradient(45deg, #FFD700, #FFCC00, #FFB300, #FFCC00, #FFD700) 3";
 
-    imgs.style.transform = `translateX(${-idx * 375}px)`;
+    imgs.style.transform = `translateX(${-idx * 390}px)`;
 
     titleElement.textContent = contents[idx].title;
     suubTitleElement.textContent = contents[idx].subtitle;
