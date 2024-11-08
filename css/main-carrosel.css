@@ -3,11 +3,21 @@
    margin-right: 40px;
 }
 
-.carossel-img{
+.carossel-img {
     height: 450px;
-    border: solid 5px; 
-    border-image: linear-gradient(45deg, #e0e0e0, #f5f5f5, #cccccc, #f5f5f5, #e0e0e0) 3;
-    border-radius: 20px; 
+    border: solid 10px; 
+    border-image: linear-gradient(45deg, 
+    rgb(255, 255, 255), 
+    rgb(200, 200, 200), 
+    rgb(160, 160, 160), 
+    rgb(220, 220, 220), 
+    rgb(128, 128, 128)
+) 1;
+}
+
+.selecionado {
+    border-image: linear-gradient(45deg, #FFD700, #FFCC00, #FFB300, #FFCC00, #FFD700) 3;
+    transition: border 0.3s ease, box-shadow 0.3s ease;
 }
 .carosel-img::before{
     position: absolute;

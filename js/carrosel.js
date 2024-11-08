@@ -1,7 +1,7 @@
 const imgs = document.getElementById("img");
 const img = document.querySelectorAll("#img img");
-const titleElement = document.querySelector(".main-title.-h1Carrosel")
-const suubTitleElement = document.querySelector(".main-subtitle.-pCarrosel")
+const titleElement = document.querySelector(".main-title.-h1Carrosel");
+const suubTitleElement = document.querySelector(".main-subtitle.-pCarrosel");
 
 const contents = [
     { title: 'Início 2017', subtitle: 'Tudo começou em 2017 quando, ao enfrentar dificuldades em cuidar de um peixe betta, decidi criar um canal para ajudar pessoas com dificuldades no Aquarismo.' },
@@ -12,17 +12,28 @@ const contents = [
     { title: 'Ganhamos nossa Marca', subtitle: 'Com o apoio do nosso amigo Diego, recebemos uma arte que se tornou nossa marca registrada desde então.' },
     { title: 'Criamos nosso Curso', subtitle: 'Com o intuito de compartilhar conhecimento com todos, criamos nosso curso de aquarismo a um preço extremamente acessível, oferecendo material de alta qualidade. Com a receita gerada pelo curso, iniciamos o desenvolvimento do nosso site e a produção de novos vídeos.' }
 ];
-let idx =0;
 
-function carossel(){
-    idx ++;
-    if(idx > img.length -1){
+let idx = 0;
+
+function carossel() {
+    img.forEach((image) => {
+        image.classList.remove("selecionado");
+        image.style.border = ""; 
+    });
+     
+    idx++;
+    if (idx > img.length - 1) {
         idx = 0;
     }
+
+    img[idx].classList.add(".selecionado");
+    img[idx].style.border ="5px solid transparent";
+    img[idx].style.borderImage = "linear-gradient(45deg, #FFD700, #FFCC00, #FFB300, #FFCC00, #FFD700) 3";
 
     imgs.style.transform = `translateX(${-idx * 375}px)`;
 
     titleElement.textContent = contents[idx].title;
     suubTitleElement.textContent = contents[idx].subtitle;
 }
-setInterval(carossel, 1800)
+
+setInterval(carossel, 1800);
