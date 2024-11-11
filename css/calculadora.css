@@ -75,9 +75,10 @@
 .color-legenda{
     content: "";
     background-color: #4CAF50;
-    height: 9px;
+    height: 10px;
     width: 15px;
     border-radius: 10px;
+    margin-right: 10px;
 }
 .color-legenda.-amarelo{
     content: "";
