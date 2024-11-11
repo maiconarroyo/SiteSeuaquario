@@ -29,23 +29,23 @@ function amonia() {
 
     const pK = calcularPK(temperatura);
     const fracaoToxica = 1 / (1 + Math.pow(10, (pK - ph)));
-    const amoniaToxica = amoniaTotal * fracaoToxica;
+    const amoniaToxica = amoniaTotal * fracaoToxica ;
 
     const resultadoDiv = document.getElementById('resultado');
     const resultadoTexto = resultadoDiv.querySelector('.main-subtitle.-resultado');
     resultadoDiv.style.display = 'block';
 
     if (amoniaToxica <= 0.018) {
-        resultadoDiv.style.backgroundColor = 'green';
+        resultadoDiv.style.backgroundColor = '#4CAF50';
         resultadoTexto.style.color = 'white';
-        resultadoTexto.textContent = "Níveis de Amônia Seguros";
+        resultadoTexto.textContent = `Níveis de Amônia Seguros Amônia Tóxica ${amoniaToxica.toFixed(3)}`;
     } else if (amoniaToxica <= 0.039) {
         resultadoDiv.style.backgroundColor = 'yellow';
         resultadoTexto.style.color = 'black';
-        resultadoTexto.textContent = "Cuidado! Níveis de Amônia Moderado";
+        resultadoTexto.textContent = `Cuidado! Níveis de Amônia Moderado Amônia Tóxica ${amoniaToxica.toFixed(3)}`;
     } else {
         resultadoDiv.style.backgroundColor = 'red';
         resultadoTexto.style.color = 'white';
-        resultadoTexto.textContent = "Níveis de Amônia Críticos!!";
+        resultadoTexto.textContent = `Níveis de Amônia Críticos!! Amônia Tóxica ${amoniaToxica.toFixed(3)}`;
     }
 }
